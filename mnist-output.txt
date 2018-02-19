@@ -1,0 +1,12 @@
+Warning: xgboost.XGBClassifier is not available and will not be used by TPOT.
+Generation 1 - Current best internal CV score: 0.9599143042220746
+Generation 2 - Current best internal CV score: 0.9599143042220746
+Generation 3 - Current best internal CV score: 0.9636347985922292
+Generation 4 - Current best internal CV score: 0.9650799194616473
+Generation 5 - Current best internal CV score: 0.9799567188873164
+
+Best pipeline: LogisticRegression(SelectFwe(PolynomialFeatures(RandomForestClassifier(input_matrix, bootstrap=False, criterion=entropy, max_features=0.2, min_samples_leaf=3, min_samples_split=14, n_estimators=100), degree=2, include_bias=False, interaction_only=False), alpha=0.002), C=0.5, dual=True, penalty=l2)
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/feature_selection/univariate_selection.py:668: RuntimeWarning: invalid value encountered in less
+  return (self.pvalues_ < self.alpha / len(self.pvalues_))
+0.991111111111
+Optimization Process Complete

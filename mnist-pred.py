@@ -9,4 +9,6 @@ pipeline_optimizer = TPOTClassifier(generations=5, population_size=20, cv=5, ran
 
 pipeline_optimizer.fit(X_train, y_train)
 print(pipeline_optimizer.score(X_test, y_test))
-pipeline_optimizer.export('tpot_exported_pipeline.py')
+pipeline_optimizer.export('mnist_exported_pipeline.py')
+
+print('Optimization Process Complete')
